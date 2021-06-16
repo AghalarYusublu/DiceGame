@@ -1,16 +1,16 @@
 body {
     background-image: url(../img/202978.jpg);
-    transform: translateY(50%);
 }
 
 .game-board {
     width: 200px;
     height: 170px;
     border: 2px solid black;
-    position: absolute;
+    /*  position: absolute;
     left: 20px;
-    top: 40px;
-    background-image: url(../img/f2bc8848b997efa57207f6f02b3eeb1f.jpg)
+    top: 40px; */
+    background-image: url(../img/f2bc8848b997efa57207f6f02b3eeb1f.jpg);
+    display: inline-block;
 }
 
 .btn {
@@ -52,4 +52,19 @@ h5 {
 
 .image2 {
     display: inline-block
+}
+
+@media (max-width: 767px) {
+    .txt-center {
+        text-align: center !important;
+    }
+    .mt20 {
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .txt-center {
+        text-align: center !important;
+    }
 }
